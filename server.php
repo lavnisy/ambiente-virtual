@@ -3,7 +3,7 @@
 $domínio = 'localhost';
 $nomeDoBanco = 'ambiente_virtual';
 $admin = 'root';
-$senha = '$Bored0212';
+$senha = '';
 $sgbd = "mysql:host=$domínio;dbname=$nomeDoBanco";
 
 $bancoDeDados = new PDO($sgbd,$admin,$senha);
